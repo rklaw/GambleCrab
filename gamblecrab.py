@@ -1,3 +1,5 @@
+# The betting and payout logic has to be changed to fit the game more accurately.
+# It will be changed soon.
 import discord
 import random
 import constants
