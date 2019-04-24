@@ -8,7 +8,7 @@ import time
 inGame = []
 userArr = []
 
-class MyClient(discord.Client):
+class GambleCrab(discord.Client):
 
 
     async def on_ready(self):
@@ -152,5 +152,5 @@ class MyClient(discord.Client):
 
 
 
-client = MyClient()
+client = GambleCrab()
 client.run('PUT YOUR BOTS TOKEN HERE')
